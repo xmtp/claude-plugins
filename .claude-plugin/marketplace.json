@@ -1,0 +1,29 @@
+{
+  "name": "xmtp-plugins",
+  "owner": {
+    "name": "XMTP",
+    "email": "hi@xmtp.org"
+  },
+  "metadata": {
+    "description": "Official XMTP plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "xmtp-docs-mcp",
+      "source": {
+        "source": "github",
+        "repo": "xmtp/xmtp-docs-mcp"
+      },
+      "description": "MCP server that exposes XMTP documentation as searchable tools",
+      "version": "1.0.0",
+      "category": "documentation",
+      "strict": false,
+      "mcpServers": {
+        "xmtp-docs": {
+          "command": "node",
+          "args": ["${CLAUDE_PLUGIN_ROOT}/dist/cli.js"]
+        }
+      }
+    }
+  ]
+}
