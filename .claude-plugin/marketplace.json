@@ -24,6 +24,13 @@
           "args": ["${CLAUDE_PLUGIN_ROOT}/dist/cli.js"]
         }
       }
+    },
+    {
+      "name": "xmtp-cli",
+      "source": "./plugins/xmtp-cli",
+      "description": "Skill for working with XMTP messaging via the xmtp CLI tool",
+      "version": "1.0.0",
+      "category": "tools"
     }
   ]
 }
