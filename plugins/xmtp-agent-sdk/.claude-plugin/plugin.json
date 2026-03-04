@@ -1,0 +1,5 @@
+{
+  "name": "xmtp-agent-sdk",
+  "description": "Skill for building XMTP messaging agents using @xmtp/agent-sdk",
+  "version": "1.0.0"
+}

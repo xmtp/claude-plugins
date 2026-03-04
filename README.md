@@ -33,6 +33,7 @@ Plugins are installed per-user and auto-update when the marketplace is refreshed
 |--------|-------------|--------|
 | `xmtp-docs-mcp` | MCP server that exposes XMTP documentation as searchable tools | [xmtp/xmtp-docs-mcp](https://github.com/xmtp/xmtp-docs-mcp) |
 | `xmtp-cli` | Skill for working with XMTP messaging via the xmtp CLI tool | Local |
+| `xmtp-agent-sdk` | Skill for building XMTP messaging agents using @xmtp/agent-sdk | Local |
 
 ## Adding a Plugin
 
