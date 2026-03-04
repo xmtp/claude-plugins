@@ -1,6 +1,21 @@
 # XMTP Claude Plugins
 
-Official Claude Code plugin marketplace for [XMTP](https://xmtp.org).
+Official [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) for [XMTP](https://xmtp.org).
+
+## What is a Plugin Marketplace?
+
+A plugin marketplace is a catalog that distributes [Claude Code plugins](https://code.claude.com/docs/en/plugins) to your team and community. When someone adds this marketplace, they can browse and install any plugin listed here with a single command.
+
+A plugin can contain any combination of:
+
+- **Skills** — Markdown instructions that teach Claude how to perform specific tasks (e.g., using the XMTP CLI)
+- **MCP servers** — Backend services that give Claude new tools, like searching documentation or querying APIs
+- **Hooks** — Scripts that run automatically before or after Claude uses a tool (e.g., linting on file save)
+- **Agents** — Specialized sub-agents for complex workflows (e.g., a security reviewer)
+- **Commands** — Custom slash commands that trigger specific behaviors
+- **LSP servers** — Language servers that provide code intelligence
+
+Plugins are installed per-user and auto-update when the marketplace is refreshed.
 
 ## Quick Start
 
